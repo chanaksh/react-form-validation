@@ -1,0 +1,19 @@
+.city,.country{
+    width: 36%;
+    height: 3rem;
+    border: none;
+    outline: none;
+    border-radius: 5px ;
+    -webkit-border-radius: 5px ;
+    -moz-border-radius: 5px ;
+    -ms-border-radius: 5px ;
+    -o-border-radius: 5px ;
+}
+
+.contryInfo{
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 4rem;
+    margin: 1rem 0;
+
+}

@@ -1,0 +1,77 @@
+.inputField input:invalid[focused="true"] ~span{
+    color: rgb(156, 12, 12);
+    display: block;
+}
+
+.inputField span{
+    display: none;
+    font-size: 1.6rem;
+}
+
+.inputField{
+    padding: 1rem 4rem;
+}
+
+.inputField label{
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 0.3rem;
+    padding-left:0.4rem ;
+    text-transform: capitalize;
+}
+
+.inputField input{
+    width: 100%;
+    height: 3rem;
+    outline: none;
+    background-color: white;
+    border: none;
+    border-radius:1rem ;
+    -webkit-border-radius:1rem ;
+    -moz-border-radius:1rem ;
+    -ms-border-radius:1rem ;
+    -o-border-radius:1rem ;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    padding-left:1rem
+}
+
+::placeholder {
+    color:black;
+    opacity: 1; 
+    font-weight: 600;
+    text-transform: capitalize;
+
+  }
+
+  .button{
+    width: 80%;
+    margin: auto;
+    height: 3.8rem;
+    border-radius:1rem ;
+    display: block;
+    margin-bottom: 3rem;
+    background-color: black;
+    border: none;
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin-top: 3rem;
+    cursor: pointer;
+    transition: all 300s;
+    -webkit-transition: all 300;
+    -moz-transition: all 300;
+    -ms-transition: all 300;
+    -o-transition: all 300;
+   
+}
+
+.button:hover{
+   position: relative;
+   top: -2px;
+}
+
+
+
+  

@@ -1,0 +1,21 @@
+.codenum,.in{
+background: transparent;
+color: black;
+height: 3rem;
+border: none;
+outline: none;
+color: black;
+}
+
+.main{
+    background-color: white;
+    width: 80%;
+    height: 3rem;
+    margin: auto;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
